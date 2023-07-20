@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-#4wuqvqn^+-44@pd(hsg=*4zd3&337zb6ky5c+291^k*q73nij
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
 
 
 # Application definition
@@ -76,10 +76,6 @@ WSGI_APPLICATION = "djangochat.wsgi.application"
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
-    }
 }
 
 
