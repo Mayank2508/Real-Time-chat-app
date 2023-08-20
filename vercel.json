@@ -1,14 +1,14 @@
-{
-    "builds": [
-      {
-        "src": "djangochat/wsgi.py",
-        "use": "@vercel/python"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "djangochat/wsgi.py"
-      }
-    ]
-}
+// {
+//     "builds": [
+//       {
+//         "src": "djangochat/wsgi.py",
+//         "use": "@vercel/python"
+//       }
+//     ],
+//     "routes": [
+//       {
+//         "src": "/(.*)",
+//         "dest": "djangochat/wsgi.py"
+//       }
+//     ]
+// }
